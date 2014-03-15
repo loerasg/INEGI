@@ -1,0 +1,13 @@
+Package: INEGI
+Type: Package
+Language: es
+Title: Procesos administrativos
+Version: 0.3
+Depends: MASS, foreign, sampling, Hmisc
+Date: 2013-08-02
+Author: Jose Daniel Loera Serna
+Maintainer: Daniel Loera <jose.loera@inegi.org.mx>
+URL: http://www.inegi.org.mx
+Description: Pues, que hace? , hasta el momento casi nada
+License: GPL-3
+encoding: UTF-8
