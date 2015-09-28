@@ -1,1 +1,4 @@
-exportPattern("^[[:alpha:]]+")
+importFrom("sampling", srswor)
+importFrom("shiny", shinyAppDir)#,tabPanel,h4,dataTableOutput,tags,tableOutput)
+importFrom("foreign", read.dbf)
+export(DefCap,Etapa01,Defunciones)

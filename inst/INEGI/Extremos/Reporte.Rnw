@@ -1,0 +1,39 @@
+\documentclass[letterpaper]{article}
+\usepackage{lscape}
+%\usepackage{lmodern}
+%\usepackage[T1]{fontenc}
+%\usepackage{mathtools}
+
+\title{INEGI}
+\author{Censos Econ\'omicos 2014}
+\date{}
+
+\begin{document}
+\maketitle
+
+\textbf{Sistema de an\'alisis multivariado}
+
+\begin{center}
+\section*{Reporte de puntos extremos}
+\end{center}
+
+Aqu\'i se muestra un peque\~no resumen de los \Sexpr{dim(datasetInput())[1]} registros, \Sexpr{dim(datasetInput())[2]-2} variables y \Sexpr{dim(datasetInput3())[1]} extremos, Obtenidos del archivo \Sexpr{input$file[1]}.
+
+\begin{table}\centering
+<<results='asis',echo=FALSE>>=
+library(knitr)
+kable(datasetInput2()$Transforma, caption = "Tabla de variables")
+@
+\end{table}
+
+\newpage
+
+\begin{landscape}
+\begin{table}\centering
+<<results='asis',echo=FALSE>>=
+kable(datasetInput3(), caption = "Tabla de Extremos")
+@
+\end{table}
+\end{landscape}
+
+\end{document}

@@ -1,13 +1,17 @@
 Package: INEGI
 Type: Package
 Language: es
-Title: Procesos administrativos
-Version: 0.3
-Depends: MASS, foreign, sampling, Hmisc
-Date: 2013-08-02
-Author: Jose Daniel Loera Serna
-Maintainer: Daniel Loera <jose.loera@inegi.org.mx>
-URL: http://www.inegi.org.mx
-Description: Pues, que hace? , hasta el momento casi nada
-License: GPL-3
-encoding: UTF-8
+Title: Procesos INEGI
+Version: 0.0.37
+Date: 2015-09-25
+Depends: R (>= 3.1.0), shiny
+Imports: sampling, foreign
+Suggests: ggplot2, VGAM, shinyjs, ggExtra, grid, gridExtra
+Encoding: UTF-8
+Author: Jose D. Loera
+Maintainer: Jose D. Loera <jose.loera@inegi.org.mx>
+URL: http://www.inegi.org.mx/
+NeedsCompilation:	no
+BugReports: https://github.com/loerasg/INEGI/issues
+Description: Varios procesos con una interfaz grafica para encontrar valores extremos y el soporte de registros administrativos.
+License: GPL (>= 2)

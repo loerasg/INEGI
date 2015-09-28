@@ -102,6 +102,6 @@
 }
 \examples{
 data(INEGIdat)
-## maybe str(INEGIdat) ; plot(INEGIdat) ...
+
 }
 \keyword{datasets}
