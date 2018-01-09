@@ -9,7 +9,7 @@ Interfaz (web) interactiva con fines didácticos
 
 Este paquete tiene la finalidad de ayudar a aprender diversos temas académicos de una forma interactiva teniendo ejemplos y la posibilidad de resolver nuevos al mismo tiempo. Apuntes de clase interactivos.
 
-Para mayores detalles visitar la página del paquete ([aquí](http://www.inegi.info/sofi/)).
+Para mayores detalles visitar la página del paquete ([aquí](http://www.sofi.uno/)).
 
 ## ¿Cómo Instalar?
 Afortunadamente el paquete se  encuentra en CRAN así que es muy sencillo instalarlo, corre lo siguiente en la consola de R:
